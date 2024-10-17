@@ -10,10 +10,10 @@ window.onload = function() {
   let adj = ["great", "big", "mundo"];
   let noun = ["jogger", "racoon", "soyJesus"];
 
-  for (let i = 0; i < pronoun.length; i++) {
-    for (let j = 0; j < adj.length; j++) {
-      for (let k = 0; k < noun.length; k++) {
-        console.log(pronoun[i] + adj[j] + noun[k] + ".com");
+  for (let a = 0; a < pronoun.length; a++) {
+    for (let b = 0; b < adj.length; b++) {
+      for (let c = 0; c < noun.length; c++) {
+        console.log(pronoun[a] + adj[b] + noun[c] + ".com");
       }
     }
   }
